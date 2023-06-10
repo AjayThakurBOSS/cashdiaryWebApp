@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cashdiaryWebApp/static/css/main.692040ae.css",
+    "main.js": "/cashdiaryWebApp/static/js/main.4ab32dfd.js",
+    "index.html": "/cashdiaryWebApp/index.html",
+    "main.692040ae.css.map": "/cashdiaryWebApp/static/css/main.692040ae.css.map",
+    "main.4ab32dfd.js.map": "/cashdiaryWebApp/static/js/main.4ab32dfd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.692040ae.css",
+    "static/js/main.4ab32dfd.js"
+  ]
+}
