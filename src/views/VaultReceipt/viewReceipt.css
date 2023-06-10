@@ -1,0 +1,20 @@
+.custom-modal {
+    background-color: none;
+    opacity: 0 !important;
+    /* Remove the black fade layer */
+    & .MuiBackdrop-root {
+      opacity: 0 !important;
+    }
+  
+    /* Adjust the modal styles to center it on the page */
+    & .MuiPaper-root {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  #receiptBy{
+    width: 250px;
+  }

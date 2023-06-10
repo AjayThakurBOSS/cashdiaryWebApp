@@ -1,0 +1,73 @@
+
+label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 2px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    display: block;
+    width: 250px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* margin-bottom: 20px; */
+  }
+  
+  .form-control { 
+    margin: 10px;
+    border: none;
+    width: 275px;
+    padding: 0;
+
+  }
+  
+  .error {
+    color: red;
+  }
+ 
+  .lockerForm{
+    margin-top: 5px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #002857;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .lockerForm .formfields{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .formfields > div{
+    width: 280px;
+    margin-right: .5rem;
+  }
+  .submitButton{
+    margin-top: 20px;
+    margin-left: 10px;
+    align-self: center;
+    /* float: right; */
+    outline: none;
+    background-color:#002857;
+    color: white;
+    padding: 3px 20px;
+    border: none;
+    border-radius: 3px;
+    width: auto;
+  }
+  .readLockerDisplay{
+    /* margin-top: 3.5rem; */
+    width: 100%;
+  } 

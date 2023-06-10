@@ -1,0 +1,52 @@
+.addNewIcon{
+    width:60px;
+    height: 50px;
+    font-size: 30px;
+    
+}
+.milageTrackingForm{
+    border: 1px solid #002758;
+    /* margin-top: 3rem; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 5px 0; 
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.milageTrackingDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.milageTrackingDiv > div{
+    margin-right: .5rem; 
+}
+
+input[type="text"]{
+    width: 280px !important;
+    margin-bottom: 10px;
+    border: 1px solid #002758 !important;
+    border-radius: 0 !important;
+}
+input[type="number"]{
+    width: 280px;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #002758;
+    border-radius: 0;
+
+}
+input[type="date"]{
+    width: 280px;
+    padding: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #002758;
+    border-radius: 0;
+
+}
+
+.table{
+    background-color: white;
+}

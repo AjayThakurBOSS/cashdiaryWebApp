@@ -1,0 +1,31 @@
+.realEstateForm{
+    display: flex;
+   flex-wrap: wrap;    
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0;
+    border:1px solid #002758;
+    width: 100%;
+}
+
+.realEstatediv{
+    display: flex;
+   flex-wrap: wrap; 
+}
+
+.realEstateForm input{
+    width: 250px;
+}
+
+.realEstatediv > div{
+    margin-right: .5rem;
+}
+
+.realEstateForm button{
+    border: none;
+    background-color: #002859;
+    color: white;
+    padding: 2px 20px;
+    border-radius: 3px;
+    margin-right: 20px;
+}

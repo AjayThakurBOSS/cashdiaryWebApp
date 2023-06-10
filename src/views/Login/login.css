@@ -1,0 +1,18 @@
+input[type='text']{
+    border:1px solid #555
+}
+input[type='password']{
+    border:1px solid #555;
+    padding:5px 10px;
+    font-size: 14px;
+
+}
+.btn{
+    border:1px solid #002857;
+    color: #002857;
+}
+.btn:hover{
+    color: white;
+    /* color: #002857 !important; */
+    background-color: #002857 !important;
+}

@@ -1,0 +1,44 @@
+.collapsable{
+    background-color: #002857;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.RetailCashForm{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #002758;
+    padding: 10px;
+    margin: 10px 0;
+   
+}
+
+.RetailCashForm button {
+   border: none;
+   background-color: #002857;
+   color: white;
+   padding: 2px 20px;
+   border-radius: 3px;
+}
+
+/* #7d0505; */
+.active {
+    background-color: #ffffff !important;
+    color: #002758 !important;
+   font-weight: 600 !important; 
+  }
+  .arrow { 
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+
+  #notes{
+    width:250px
+  }

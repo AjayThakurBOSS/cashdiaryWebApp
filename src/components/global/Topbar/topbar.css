@@ -1,0 +1,37 @@
+.profileLinks{
+    color: white;
+    text-decoration: none;
+}
+.profileLinks:hover{
+    color: white;
+    text-decoration: underline;
+}
+.profileLogo{
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+.container {
+    position: relative; /* set the container to a relative position */
+    
+  }
+  
+  .hover-div {
+    position: absolute; /* set the hover-div to an absolute position */
+    top: 100%; /* align the hover-div to the vertical center */
+    left: -31%; /* align the hover-div to the horizontal center */
+    /* transform: translate(-50%, -50%); center the hover-div */
+    background-color: #002758; /* set a background color */
+    padding: 10px; /* add some padding for readability */
+    width: 100px;
+    z-index: 999999999999;
+  }
+  
+  .hover-trigger {
+    width: 100%; /* set the trigger width to fill the container */
+    height: 300%; /* set the trigger height to fill the container */
+    display: flex; /* use flexbox to center the text */
+    justify-content: center; /* center the text horizontally */
+    align-items: center; /* center the text vertically */
+    font-size: 20px; /* set a font size for readability */
+  }
